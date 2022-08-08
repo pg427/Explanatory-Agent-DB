@@ -1,0 +1,15 @@
+Create a Virtual Environment (Done using Anaconda usually)
+
+Download necessary packages including: requests, xlsxwriter, bmt, numpy, pandas
+
+export PYTHONPATH=
+
+Run python3 -m create_kp_inventory.py - (Gives the Inventory table called "KP_Inventory_file.xlsx" with triplets)
+
+Run python3 -m load_local_similarity_nodes_predicates.py
+
+Run python3 -m load_casebase_xARA.py
+
+ 
+
+Run python3 -m load_queryweights_xARA.py - (for changing node and predicate weights in table xARA_QueryWeights)
